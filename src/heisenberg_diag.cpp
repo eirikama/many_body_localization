@@ -174,6 +174,7 @@ std::string resultPath(const std::string& prefix, int P, double W, int dup) {
     return ss.str();
 }
 
+// ─── Main ───────────────────────────────────────────────────────────────────
 
 int main(int argc, char* argv[]) {
     if (argc != 4) {
