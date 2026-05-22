@@ -268,7 +268,7 @@ def plot_figure1(h_values: list[float], L_values: list[int]):
             capsize=3,
             linewidth=1.2,
         )
-
+    
     ax.set_xlabel(r"$L$")
     ax.set_ylabel(r"$\log\,[\,|\,m^{(n)}_{i\alpha} - m^{(n+1)}_{i\alpha}\,|\,]$")
     ax.legend(ncol=2)
@@ -307,6 +307,7 @@ def plot_figure2(h_values: np.ndarray, L_values: list[int]):
             linewidth=1.2,
         )
 
+    ax.set_xscale('log')
     ax.set_xlabel(r"$h$")
     ax.set_ylabel(r"$[\,f^{(n)}_\alpha\,]$")
     ax.set_ylim(0, 1.05)
