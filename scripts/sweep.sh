@@ -2,12 +2,12 @@
 set -euo pipefail
 
 # ── Parameters ────────────────────────────────────────────────────────────────
-L_values=(6 8 10 12)
-W_start=3.1
+L_values=(6 8 10)
+W_start=.5
 W_end=12.0
-W_step=0.5
+W_step=1.0
 dup_start=1
-dup_end=10
+dup_end=50
 
 BINARY=./build/solve_random_heisenberg
 
